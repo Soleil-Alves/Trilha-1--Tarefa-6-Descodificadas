@@ -1,0 +1,487 @@
+/* Header */
+
+* {
+    margin: 0;
+    padding: 0;;
+    box-sizing: border-box;
+}
+
+.header-menu {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border:solid 1px transparent;   
+    justify-content: space-between;
+    position: fixed;
+    border-bottom:solid 1px black;
+}
+
+.header menu a {
+    font-size: 18px;
+    padding: 0px 30px;
+    color: black;
+    text-decoration: none;
+}
+
+nav .logo p{
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    float: right;
+    color: black;
+    cursor: pointer;
+}
+
+.header-menu ul{
+    float:right;
+}
+
+.header-menu li{
+    display: inline;
+    list-style: none;
+}
+
+.header-menu li a{
+    font-size: 18px;
+    padding: 0px 30px;
+    color: black;
+    text-decoration: none;
+}
+/* Index */
+
+.mainImage {
+    background: linear-gradient(rgba(10,52,99,0.8),rgba(10,52,99,0.8)), url(https://cdn.discordapp.com/attachments/752361024421888091/1090009531800621138/image.png);
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom:solid 1px black;
+    display:inline-block;
+}
+
+.eventDate {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 45px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 62,5%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 40px;
+
+}
+
+/* Sessão colorida */
+
+.blueSection {
+    background-color: #3d3f6f;
+    padding: 80px
+}
+
+.blueSection p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+    font-family: 'Noto Serif Sinhala', serif;
+}
+
+.blueSection h2 {
+    font-family: 'Noto Serif Sinhala', serif;
+    color: #E8E8E8;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    background-color: #3d3f6f;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}  
+
+.colText {
+    font-size: 20px;
+    color: #E8E8E8;
+    text-align: center;
+    text-transform: bold;
+    padding: 25px;
+    font-family: 'Noto Serif Sinhala', serif;
+}
+
+.eventIm {
+    align-items: center;
+    width: 250px;
+    height: 500px;
+    padding-left: 43px;
+    padding-bottom: 60px;
+}
+
+/* Location */
+
+.Location {
+    padding:80px;
+    background-color: #E8E8E8;
+}
+
+.Location h3 {
+    padding:25px;
+    color: #3d3f6f;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Location p {
+    padding:25px;
+    color: #3d3f6f;
+    font-size: 20px;
+    text-align: center;
+}
+
+.locEv {
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.Map {
+    text-align: center;
+}
+.Map > iframe {
+    background: black;
+    border: none;
+    height: 650px;
+    width: 900px;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 40px;
+    width: 350px;
+    border: 1px solid #3d3f6f;
+    background-color: #3d3f6f;
+    color: #E8E8E8;
+    height: 30px;
+    text-decoration: none;
+}
+
+.btnCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.btn {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.btn:hover, .btn:focus, .btn:active {
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* Footer */
+
+footer {
+    margin: 0 auto;
+    margin-top: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3d3f6f;
+    color: #E8E8E8;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p {
+    font-size: 12px;
+    padding: 30px;
+}
+
+/* Convidados */
+
+
+.convImage {
+    background: linear-gradient(rgba(10,52,99,0.8),rgba(10,52,99,0.8)), url(https://static.vecteezy.com/system/resources/previews/012/716/323/original/video-games-banner-cyber-game-poster-on-red-background-vector.jpg);
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom:solid 1px black;
+    display:inline-block;
+}
+    
+.convImage h1 {
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+    font-size: 62,5%;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    padding: 40px;
+    margin-top: 130px;
+}
+
+.conv {
+    background-color: #E8E8E8;
+    text-align: center;
+    padding: 15px;
+}
+
+.conv li {
+    padding: 20px;
+    list-style: none;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conv li a {
+    text-decoration: underline;
+    color: purple;
+    font-size: 18px;
+}
+
+.conv h3 {
+    padding: 30px;
+    margin: 0px;
+    font-family: 'Noto Serif Sinhala', serif;
+    color: #3d3f6f;
+    text-align: center;
+    font-size: 30px;
+}
+.blueConv {
+    background-color: #3d3f6f;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.greyConv {
+    background-color: #E8E8E8;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.greyConv h3{
+    font-size: 30px;
+    padding: 15px;
+    margin: 0px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #3d3f6f;
+}
+
+.greyConv p {
+    font-size: 20px;
+    padding: 15px 120px;
+    margin: 0px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #3d3f6f;
+}
+
+.blueConv h3 {
+    font-size: 30px;
+    padding: 15px;
+    margin: 0px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #E8E8E8;
+}
+
+.blueConv p {
+    font-size: 20px;
+    padding: 15px 120px;
+    margin: 0px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #E8E8E8;
+}
+
+.fotoConv {
+    align-items: center;
+    height: 400px;
+    width:350px;
+
+}
+
+/* Sobre nós */
+
+.aboutImage {
+    background: linear-gradient(rgba(10,52,99,0.8),rgba(10,52,99,0.8)), url(https://t4.ftcdn.net/jpg/01/27/16/25/360_F_127162573_kcES41FWV2OOdI5GxdD4di6l4O8o0AZb.jpg);
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom:solid 1px black;
+    display:inline-block;
+}
+.aboutUs {
+    background-color: #E8E8E8;
+}
+
+.aboutImage h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-size: 62,5%;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    padding: 40px;
+    margin-top: 130px;
+}
+
+.aboutUs h3{
+    padding-top: 30px;
+    margin: 0px;
+    font-family: 'Noto Serif Sinhala', serif;
+    color: #3d3f6f;
+    text-align: center;
+    font-size: 30px;
+}
+
+.aboutUs p{
+    color: #3d3f6f;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+    font-family: 'Noto Serif Sinhala', serif;
+}
+
+.Video {
+    text-align: center;
+}
+.Video > iframe {
+    background: black;
+    border: none;
+    height: 350px;
+    width: 500px;
+}
+
+/* Contato */
+
+.contactImage {
+    background: linear-gradient(rgba(10,52,99,0.8),rgba(10,52,99,0.8)), url(https://www.pngitem.com/pimgs/m/60-606303_transparent-contact-us-banner-png-contact-us-banner.png);
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom:solid 1px black;
+    display:inline-block;
+}
+
+.contactImage h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: underline;
+    font-size: 62,5%;
+    font-family: 'Lato', sans-serif;
+    padding: 40px;
+    margin-top: 130px;
+}
+ 
+/* Formulario */
+
+.contactTxt {
+    background-color: #E8E8E8;
+    padding: 50px;
+}
+
+.contactTxt h3{
+    margin: 0px;
+    font-family: 'Noto Serif Sinhala', serif;
+    color: #3d3f6f;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contactTxt p{
+    color: #3d3f6f;
+    text-align: center;
+    font-size: 20px;
+    padding: 25px;
+    font-family: 'Noto Serif Sinhala', serif;
+}
+
+.Form {
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: #E8E8E8;
+}
+
+label {
+    color: #3d3f6f;
+    font-weight: bold;
+    display: block;
+    padding: 18px;
+}
+  
+label:after { content: ": " }
+
+input[type=email] {
+    padding: 10px;
+    box-shadow: 4px 4px 10px;
+    border-radius: 15px;
+}
+input[type=text] {
+    padding: 10px;
+    box-shadow: 4px 4px 10px;
+    border-radius: 15px; 
+}
+
+#botaoEnviar {
+    padding: 10px;
+    box-shadow: 4px 4px 10px;
+    border-radius: 15px; 
+    background-color: lightblue;
+}
+
+#botaoEnviar:hover {
+    background-color: lightgreen;
+    color: green;
+}
+
+.styling {
+    border: 10px solid lightblue;
+}
+
+textarea {
+    width: 100;
+    resize: vertical;
+    padding: 25px;
+    border-radius: 20px;
+    border: 10px solid lightblue;
+    box-shadow: 4px 4px 10px;
+    height: 150px;
+}
+
